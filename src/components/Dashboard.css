@@ -1,6 +1,5 @@
 /* src/components/Dashboard.css */
-
-.dashboard {
+.dashboard-container {
   padding: 20px;
 }
 
@@ -13,10 +12,11 @@
 
 .add-movie-button {
   padding: 10px 20px;
+  font-size: 16px;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -27,5 +27,5 @@
 .movie-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 20px;
 }
